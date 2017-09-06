@@ -1,0 +1,53 @@
+
+{
+    "type":"array",
+    "name":"account",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "description": "name of account",
+                "type": "string"
+            },
+            "industry": {
+                "type": "string"
+            },
+            "BillingStreet": {
+
+                "type": "string"
+            },
+            "BillingCity": {
+
+                "type": "string"
+            },
+            "BillingState": {
+
+                "type": "string"
+            },
+            "Phone": {
+
+                "type": "string"
+            },
+             "Fax": {
+
+                "type": "string"
+            },
+             "AccountNumber": {
+
+                "type": "string"
+            },
+             "Website": {
+
+                "type": "string"
+            },
+              "NumberOfEmployees": {
+
+                "type": "string"
+            }
+
+        },
+        "required": [
+            "name"
+        ]
+    }
+}

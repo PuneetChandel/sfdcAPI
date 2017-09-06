@@ -1,0 +1,16 @@
+settings:
+    loginUrl: "https://login.salesforce.com/services/oauth2/token?grant_type=password"
+    clientId: "1237gtt9ltKv.8fBkIN4qT6QPyVdB_sGMNHfbH8ZEyjdI4Ry3MVG9szVa2RxsqBb7rUJu4rghpqoqnFuYPriVRK7"
+    clientSecret: "1234567890"
+    userName: "username"
+    passWord:  "password"
+    flaskhost: 0.0.0.0
+    flaskport: 5001
+    logfilename: sfapi.log
+    logmaxBytes: 100000
+    logbackupCount: 5
+    objectstovaliadte:
+      - account
+      - opportunity
+
+
