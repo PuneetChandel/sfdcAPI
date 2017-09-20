@@ -22,7 +22,7 @@ curl -X POST \
   -H 'content-type: application/json' \  
   -H 'x-object-name: account' \  
   -d '[  
-	{  
+	'''{  
     "name": "My new acc 1001",  
     "industry": "Banking",  
     "BillingStreet": "345 Shoreline Park\nMountain View, CA 94043\nUSA",  
@@ -52,7 +52,7 @@ curl -X POST \
     "AnnualRevenue": 30000000,   
     "Ownership": "Private"   
 	}   
-]   
+] '''  
 
 curl -X POST \   
   http://0.0.0.0:5001/v1/sfobject \   
